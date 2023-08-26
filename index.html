@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Número Aleatorio</h1>
+    <div class="container">
+        <p>Escolha o minimo e maximo para o número sorteado</p>
+
+        <label for="info_min">Minimo</label>
+        <input id="info_min" type="number">
+        <br>
+        <label for="info_max">Maximo</label>
+        <input id="info_max" type="number">
+        <br>
+        <button class="btn" onclick="btn_sortear()">SORTEAR</button>
+        <button class="btn" onclick="btn_limpar()">LIMPAR</button>
+    </div>
+    <div class="saida" id="saida_id">
+        <p class="title_saida">SAIDA</p>
+        <br>
+        <div class="saida-box">
+            <p class="resultado_style" id="resultado"></p>
+        </div>
+    </div>
+</body>
+</html>

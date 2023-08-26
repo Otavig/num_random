@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+*{
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background: #0097B2;
+}
+h1{
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+}
+br{
+    user-select: none;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    width: 100%;
+    margin: 1% auto;
+    border: 1px solid silver;
+    background-color: white;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    border-radius: 3px;
+}
+
+.saida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    width: 100%;
+    margin: 1% auto;
+    border: 1px solid silver;
+    background-color: white;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    border-radius: 3px;
+}
+
+.container input{
+    padding: 2%;
+    max-width: 60%;
+    width: 100%;
+    border: 1px solid silver;
+}
+
+.container p{
+    font-size: 15px;
+    margin: 5% auto;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+
+
+.title_saida{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+    max-width: 60%;
+    width: 100%;
+}
+.saida-box{
+    display: flex;
+    padding: 10%;
+    max-width: 60%;
+    width: 80%;
+    border: 2px solid silver;
+    border-style: dotted;
+}
+.resultado_style{
+    font-size: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    word-break: break-all;
+}
+
+
+.btn{
+    display: flex;
+    font-size: 20px;
+    padding: 2%;
+    border: 0px;
+    margin-bottom: 10px;
+    transition: 2s;
+    background-color: #0097B2;
+    color: white;
+    max-width: 30%;
+    justify-content: center;
+    width: 100%;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #025d6d;
+    color: white;
+}
+
+.ocultar{
+    display: none;
+}
